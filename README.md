@@ -1,27 +1,21 @@
 # Angular State Management Patterns
 
-My portfolio of modern Angular state management techniques (Signals + NGXS) built while working on a large-scale insurance platform (195+ components, 29 modules, 9 journeys).
+My portfolio showcasing modern Angular techniques used in a large-scale insurance platform (195+ components, 29 modules, 9 journeys).
 
 ## 🚀 Live Demos
 
-| Project                        | Tech Stack                  | Link |
-|--------------------------------|-----------------------------|------|
-| Signals Shopping Cart          | Angular 21 + Signals        | [View Repo](https://github.com/sarthak-1799/signals-shopping-cart) |
-| NGXS Todo App                  | NGXS + Signals              | Coming on Day 3 |
-| Config-Driven Dynamic UI       | Signals + JSON Schema       | Coming on Day 4 |
-| Single-SPA Micro-Frontends     | Angular + React             | Coming later |
+| Project                        | Key Concepts                          | Link |
+|--------------------------------|---------------------------------------|------|
+| Signals Shopping Cart          | Signals, computed(), effect()         | [View](https://github.com/sarthak-1799/signals-shopping-cart) |
+| NGXS Todo App                  | Actions, State, Selectors, Store, Logger | [View](https://github.com/sarthak-1799/ngxs-todo) |
+| Config-Driven Dynamic UI       | Multi-step forms, conditional fields, dynamic arrays, live preview | [View](https://github.com/sarthak-1799/config-driven-ui-demo) |
 
-## What I Built & Why It Matters
+## What These Demos Prove
 
-- **Signals** → Replaced BehaviorSubject in loader service for fine-grained reactivity
-- **195+ components** across 9 customer journeys (Annuity, Term-Life, Endorsement, Renewal, MPA, Motor+ Glow, etc.)
-- **Config-driven UI engine** that renders entire forms from JSON schema at runtime
+- **Fine-grained reactivity** using Angular Signals
+- **Global state management** using NGXS
+- **Config-Driven UI engine** — entire forms rendered from JSON schema at runtime (exactly like the production system I worked on)
 
-## Skills Demonstrated
-- Angular 16 → 21 (Signals, Standalone components, toSignal)
-- NGXS State Management
-- Keycloak OAuth2/OIDC + HTTP Interceptors
-- Config-driven Dynamic Forms
-- Performance optimization in large enterprise apps
+These projects directly support my experience at Digit Life Insurance.
 
-**Built with ❤️ for interview preparation**
+**Built to justify 3+ years of enterprise Angular development.**
